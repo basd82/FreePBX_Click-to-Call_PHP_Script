@@ -20,9 +20,7 @@ $config = [
 	'maxRetry' => 2,
 	'allowedIPs' => [
 		'172.31.0.0/16',     // IPv4 with wildcard
-		'192.168.200.0/24',     // IPv4 CIDR notation
 		'2001:db8::/32',   // IPv6 CIDR notation
-//              '2a02/32',   // IPv6 CIDR notation
 		'::1',             // IPv6 localhost
 		'127.0.0.1'        // IPv4 localhost
 
